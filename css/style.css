@@ -274,7 +274,7 @@ main {
             left: 50%;
             transform: translate(-50%, -50%); }
       .section-give-feedback-main .people .list-group-flush {
-        max-height: calc(100% - 12.1rem);
+        max-height: calc(100% - 13.28rem);
         overflow-y: scroll;
         overflow-x: hidden;
         -ms-overflow-style: none;
@@ -359,7 +359,7 @@ main {
       border: solid 1.3px #f5f5f5;
       border-radius: 13px; }
       .section-give-feedback-main .employee-header h4 {
-        margin-top: 0.1rem;
+        margin-top: 0.15rem;
         margin-bottom: 0.8rem;
         font-family: "Heebo-Medium";
         font-size: 1.16rem;
@@ -372,6 +372,81 @@ main {
         font-family: "Heebo-Bold";
         font-size: 2.3rem;
         color: #000; }
+      .section-give-feedback-main .employee-body {
+        padding: 0 6rem; }
+        .section-give-feedback-main .employee-body .rating {
+          margin-top: 2.8rem;
+          padding-bottom: 2.3rem;
+          border-bottom: 1.25px solid #E8E8E8; }
+          .section-give-feedback-main .employee-body .rating p {
+            margin: 0;
+            margin-bottom: .5rem;
+            font-family: "Heebo-Medium";
+            font-size: 1.7rem;
+            color: #1a173b;
+            text-align: center; }
+          .section-give-feedback-main .employee-body .rating .stars {
+            position: relative;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center; }
+            .section-give-feedback-main .employee-body .rating .stars input {
+              display: none; }
+            .section-give-feedback-main .employee-body .rating .stars label {
+              display: block;
+              cursor: pointer;
+              width: 2.5rem;
+              color: #c3c3c3; }
+              .section-give-feedback-main .employee-body .rating .stars label::before {
+                content: "\f005";
+                font-family: FontAwesome;
+                position: relative;
+                display: block;
+                font-size: 2rem;
+                color: #c1c1c1; }
+              .section-give-feedback-main .employee-body .rating .stars label::after {
+                content: "\f005";
+                font-family: FontAwesome;
+                position: absolute;
+                display: block;
+                font-size: 2rem;
+                color: #ffbb41;
+                top: 0;
+                opacity: 0;
+                transition: 0.3s; }
+            .section-give-feedback-main .employee-body .rating .stars label:hover::after, .section-give-feedback-main .employee-body .rating .stars input:checked ~ label::after, .section-give-feedback-main .employee-body .rating .stars label:hover ~ label::after {
+              opacity: 1; }
+        .section-give-feedback-main .employee-body .input-container {
+          margin-top: 3.2rem; }
+          .section-give-feedback-main .employee-body .input-container label {
+            display: block;
+            font-family: "Heebo-Medium";
+            font-size: 1.55rem;
+            color: #000000; }
+          .section-give-feedback-main .employee-body .input-container textarea {
+            font-family: "Lato", sans-serif;
+            width: 100%;
+            height: 7rem;
+            padding: 1.1rem 1.5rem;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            border: solid 1.3px #e8e8e8; }
+            .section-give-feedback-main .employee-body .input-container textarea::placeholder {
+              font-size: 1.2rem; }
+        .section-give-feedback-main .employee-body .custom-btn-feedback-red {
+          text-decoration: none;
+          display: block;
+          margin: auto;
+          margin-top: 3.8rem;
+          width: 14.3rem;
+          height: 2.9rem;
+          border-radius: 34px;
+          padding: .5rem 0;
+          background-color: #fd2851;
+          font-family: "Heebo-Bold";
+          font-size: 1.3rem;
+          color: #ffffff;
+          text-align: center; }
 
 .options {
   margin-top: 0.5rem;
