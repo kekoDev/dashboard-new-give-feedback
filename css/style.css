@@ -319,15 +319,59 @@ main {
           left: 57%;
           transform: translate(-50%, -50%); }
         .section-give-feedback-main .people .list-group-item .btn-custom {
+          text-decoration: none;
           font-family: "Heebo-Medium";
-          display: inline-block;
+          display: flex;
+          justify-content: center;
+          align-items: center;
           width: 8.5rem;
           height: 2.7rem;
-          padding: .4rem 0;
           font-size: 1.22rem;
+          color: #1477fc;
           text-transform: uppercase;
           border: solid 1.3px #1477fc;
           border-radius: 13px; }
+          .section-give-feedback-main .people .list-group-item .btn-custom span {
+            line-height: .8;
+            margin-top: .1rem; }
+          .section-give-feedback-main .people .list-group-item .btn-custom svg {
+            margin-left: .5rem;
+            width: 1.35rem;
+            height: 1.35rem; }
+            .section-give-feedback-main .people .list-group-item .btn-custom svg .cls-1, .section-give-feedback-main .people .list-group-item .btn-custom svg .cls-2, .section-give-feedback-main .people .list-group-item .btn-custom svg .cls-4 {
+              fill: none; }
+            .section-give-feedback-main .people .list-group-item .btn-custom svg .cls-1, .section-give-feedback-main .people .list-group-item .btn-custom svg .cls-2 {
+              stroke: #1477fc; }
+            .section-give-feedback-main .people .list-group-item .btn-custom svg .cls-1 {
+              stroke-linecap: round;
+              stroke-width: 1.25px; }
+            .section-give-feedback-main .people .list-group-item .btn-custom svg .cls-2 {
+              stroke-width: 0.9px; }
+            .section-give-feedback-main .people .list-group-item .btn-custom svg .cls-3 {
+              stroke: none; }
+          .section-give-feedback-main .people .list-group-item .btn-custom-selected {
+            background-color: #1477fc;
+            color: #fff; }
+    .section-give-feedback-main .employee {
+      padding: 1.7rem 3.3rem;
+      padding-bottom: 1.5rem;
+      background-color: #FFF;
+      border: solid 1.3px #f5f5f5;
+      border-radius: 13px; }
+      .section-give-feedback-main .employee-header h4 {
+        margin-top: 0.1rem;
+        margin-bottom: 0.8rem;
+        font-family: "Heebo-Medium";
+        font-size: 1.16rem;
+        font-stretch: normal;
+        letter-spacing: 0.24px;
+        color: #88888c; }
+      .section-give-feedback-main .employee-header h3 {
+        margin: 0;
+        margin-top: -0.1rem;
+        font-family: "Heebo-Bold";
+        font-size: 2.3rem;
+        color: #000; }
 
 .options {
   margin-top: 0.5rem;
